@@ -276,6 +276,9 @@ img {
 .tabbed-pane {
   padding-top: 12px;
 }
+.html-widget {
+  margin-bottom: 20px;
+}
 button.code-folding-btn:focus {
   outline: none;
 }
@@ -309,7 +312,7 @@ $(document).ready(function () {
 </div>
 
 
-<p><br> In this document I provide the R code to calculate the species richness and the number of missing species for 5-degrees latitudinal bands. I also provide the code to calculate the sampling effort and three methods of inventory completeness. The code provided here was developed for the paper <code>Latitudinal gradients in marine species richness: knowledge gaps and missing tropical species</code>. Therefore, you can check the paper for more information. All functions developed in this code are presented in the end of the page.</p>
+<p><br> In this document I provide the R code to calculate the species richness and the number of missing species for 5-degrees latitudinal bands. I also provide the code to calculate the sampling effort and three methods of inventory completeness. The code provided here was developed for the paper <code>Mapping knowledge gaps in marine diversity reveals a latitudinal gradient of missing species richness</code>. Please, check the <a href="https://doi.org/10.1038/s41467-018-07217-7">paper</a> if you need more information. All functions developed in this code are presented in the end of the page.</p>
 <p><br> First, you need load the dataset to run the analyses. Here, I provide a compiled dataset with Ophiuroidea records to illustrate the functions.</p>
 <pre class="r"><code>load(&quot;Example.RData&quot;)</code></pre>
 <p><br> Now you can calculate the species richness and the number of missing species. Note that dark grey bars represent number of observed species and light grey bars represent number of missing species.</p>
